@@ -1,1 +1,1 @@
-## WCL: Weakly Supervised Contrastive Learning
+## Weakly Supervised Contrastive Learning
