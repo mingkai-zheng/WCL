@@ -19,7 +19,7 @@ In this code, we adopt a hidden dimension of 4096 and output dimension 256 for t
 |----------|:----:|:---:|:---:|:---:|:---:|:---:|
 |  WCL | ResNet50 | 4096 | 100  | 68.5 % | 68.1 % | [wcl-100.pth](https://drive.google.com/file/d/1T_lvIBAavbA4k5o9UuzsmtYwAbWl0iwu/view?usp=sharing) |
 |  WCL | ResNet50 | 4096 | 200  | 70.5 % | 70.3 % | [wcl-200.pth](https://drive.google.com/file/d/16XlA5rly01EaRHKF2hxyoDHfuBeKRkwn/view?usp=sharing) |
-|  WCL | ResNet50 | 4096 | 800  | xx.x % | 72.2 % | [wcl-800.pth]() |
+|  WCL | ResNet50 | 4096 | 800  | xx.x % | 72.2 % | --- |
 
 If you want to test the pretained model, please download the weights from the link above, and move it to the checkpoints folder (create one if you don't have .checkpoints/ directory). The evaluation scripts also has been provided in script/train.sh
 
