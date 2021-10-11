@@ -1,4 +1,4 @@
-## Weakly Supervised Contrastive Learning
+## Weakly Supervised Contrastive Learning (Accepted by ICCV2021 !)
 
 
 This repository contains PyTorch evaluation code, training code and pretrained models for WCL.
