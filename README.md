@@ -22,17 +22,17 @@ In this code, we adopt a hidden dimension of 4096 and output dimension 256 for t
 
 If you want to test the pretained model, please download the weights from the link above, and move it to the checkpoints folder (create one if you don't have .checkpoints/ directory). The evaluation scripts also has been provided in script/train.sh
 
-<!-- 
+
 ## Citation
-If you find that ReSSL interesting and help your research, please consider citing it:
+If you find that wcl interesting and help your research, please consider citing it:
 ```
-@misc{zheng2021ressl,
-      title={ReSSL: Relational Self-Supervised Learning with Weak Augmentation}, 
-      author={Mingkai Zheng and Shan You and Fei Wang and Chen Qian and Changshui Zhang and Xiaogang Wang and Chang Xu},
-      year={2021},
-      eprint={2107.09282},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Zheng_2021_ICCV,
+    author    = {Zheng, Mingkai and Wang, Fei and You, Shan and Qian, Chen and Zhang, Changshui and Wang, Xiaogang and Xu, Chang},
+    title     = {Weakly Supervised Contrastive Learning},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {10042-10051}
 }
 ```
- -->
+
