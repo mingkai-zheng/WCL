@@ -3,7 +3,7 @@
 
 This repository contains PyTorch evaluation code, training code and pretrained models for WCL.
 
-For details see [Weakly Supervised Contrastive Learning](https://) by Mingkai Zheng, Shan You, Fei Wang, Chen Qian, Changshui Zhang, Xiaogang Wang and Chang Xu
+For details see [Weakly Supervised Contrastive Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Weakly_Supervised_Contrastive_Learning_ICCV_2021_paper.pdf) by Mingkai Zheng, Fei Wang, Shan You, Chen Qian, Changshui Zhang, Xiaogang Wang and Chang Xu
 
 ![WCL](img/framework.png)
 
@@ -19,7 +19,6 @@ In this code, we adopt a hidden dimension of 4096 and output dimension 256 for t
 |----------|:----:|:---:|:---:|:---:|:---:|:---:|
 |  WCL | ResNet50 | 4096 | 100  | 68.5 % | 68.1 % | [wcl-100.pth](https://drive.google.com/file/d/1T_lvIBAavbA4k5o9UuzsmtYwAbWl0iwu/view?usp=sharing) |
 |  WCL | ResNet50 | 4096 | 200  | 70.5 % | 70.3 % | [wcl-200.pth](https://drive.google.com/file/d/16XlA5rly01EaRHKF2hxyoDHfuBeKRkwn/view?usp=sharing) |
-|  WCL | ResNet50 | 4096 | 800  | xx.x % | 72.2 % | --- |
 
 If you want to test the pretained model, please download the weights from the link above, and move it to the checkpoints folder (create one if you don't have .checkpoints/ directory). The evaluation scripts also has been provided in script/train.sh
 
